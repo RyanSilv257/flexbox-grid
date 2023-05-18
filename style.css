@@ -23,7 +23,7 @@ body {
     gap: 0.6%;
     ;
 }
-
+/* _________________________________________________________________________________________ */
 /* Header */
 header {
     background: #a7ffeb;
@@ -31,4 +31,50 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+header img{
+    margin-left: 50px;
+}
+
+nav {
+    margin-right: 50px;
+}
+
+nav a {
+    margin: 0 30px;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: bolder;
+    color: black;
+}
+
+/* ___________________________________________________________________________ */
+/* Main */
+main {
+    background: #84ffff;
+    grid-area: main;
+}
+
+/* _____________________________________________________________________________________ */
+/* sidebar */
+#sidebar {
+    background: #18ffff;
+    grid-area: sidebar;
+}
+
+#sidebar img {
+    width: 100%;
+    height: 100%;
+    transform: scalex(-1); /*inverte a imagem */
+}
+
+/* __________________________________________________________________________ */
+/* Divs (Cards) */
+#content1 {
+    background: #6fffd2;
+    grid-area: content1;
+}
+#content1 img {
+    width: 100%;
+    height: 85%;
 }
